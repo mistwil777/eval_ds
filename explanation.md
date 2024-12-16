@@ -281,17 +281,20 @@ The loan risk prediction model developed using Random Forest classification has 
 Model Performance: The Random Forest classifier demonstrated in predicting loan risk, indicating its effectiveness in distinguishing between high-risk and low-risk applicants.
 Feature Importance: The analysis revealed that are the most influential factors in determining loan risk. This information can guide loan officers in their decision-making process.
 Risk Distribution: The exploratory data analysis showed.
+
 8.2. Limitations of the current model
 Despite its strengths, the model has several limitations:
 Data Constraints: The model is based on a limited dataset, which may not fully represent the diverse range of loan applicants in real-world scenarios.
 Feature Engineering: While label encoding was used for categorical variables, more advanced encoding techniques or feature engineering could potentially improve model performance.
 Model Interpretability: Although Random Forest provides feature importance, it lacks the easy interpretability of simpler models like logistic regression.
+
 8.3. Suggestions for improvement
 To enhance the model's effectiveness, consider the following improvements:
 Feature Engineering: Explore more sophisticated encoding techniques for categorical variables and create new features that might capture complex relationships in the data.
 Hyperparameter Tuning: Implement grid search or random search to optimize the Random Forest hyperparameters.
 Ensemble Methods: Experiment with other ensemble methods or combine multiple models to potentially improve prediction accuracy.
 Handling Imbalanced Data: If the dataset is imbalanced, implement techniques like SMOTE to address class imbalance.
+
 8.4. Potential applications in the financial industry
 This loan risk prediction model has several potential applications:
 Automated Loan Approval: Implement the model as part of an automated loan approval system to quickly assess applicant risk.
